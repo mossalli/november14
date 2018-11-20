@@ -1,10 +1,57 @@
 <!DOCTYPE html>
+<html lang="en">
+  <title>M0ssalli</title>
+  <head>
+    
+      <script src="/script.js" defer></script>
+    <style>
+      section#home{
+  margin-top: 50px;
+}
+section{
+  border: 10px solid grey;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+nav{
+  position: fixed;
+  background-color: black;
+  color: white;
+  width: 100%;
+  top: 0;
+}
+nav a{
+  color: white;
+}
+nav ul > li{
+  display: inline-block;
+}
+      section#portfolio > div{
+  width: 48%;
+}
 
-<div class="card">
-  <img src="https://rlv.zcache.com/photographer_camera_black_white_photography_business_card-r98f7b6ae703a466ca2dbe347535ab976_em40i_307.jpg?rvtype=content" alt="Avatar">
-  <div class="container">
-    <h4><b>Mosally Abid</b></h4> 
-    <p>Mossalli_360@live.com</p>
-    <p>Photographer</p> 
-  </div>
-</div>
+    </style>
+  </head>  
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1>eyePhotography</h1>
+      <p>freelancer photographer</p>
+    </section>
+    
+    <section id="portfolio">
+      <img  width="500" height= "400" src="http://www.technologybloggers.org/wp-content/uploads/2013/06/Photography.jpg">
+      <img height="400" src="https://rlv.zcache.com/camera_lens_photography_business_cards-ra65106c0c1ea4407894ee888c5cd3d10_em40b_540.jpg">
+        </section>
+    <section id="contact">
+      <a href="https://www.instagram.com/m0ssalli/">Insta</a>
+    </section>
+  </body>
+</html>
